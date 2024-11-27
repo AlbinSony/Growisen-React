@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
-import Services from "./components/Services";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -16,10 +16,11 @@ const App = () => {
         <Hero />
         <Benefits />
         <Collaboration />
-        <Services />
-        <Pricing />
-        <Roadmap />
-        <Footer />
+        {/* <Services /> */}
+       {/* <Pricing /> */}
+      <Roadmap /> 
+      
+      <Footer />
       </div>
 
       <ButtonGradient />

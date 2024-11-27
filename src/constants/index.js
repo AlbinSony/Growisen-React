@@ -29,32 +29,58 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
 } from "../assets";
 
+//socials
+import linkedin from '../assets/socials/linkedin.svg';
+
+//collab
+import node from '../assets/collaboration/node-js.svg';
+import react from '../assets/collaboration/reactjs.svg';
+import postgress from '../assets/collaboration/postgresq.svg';
+import mongo from '../assets/collaboration/mongodb.svg';
+import firebase from '../assets/collaboration/firebase.svg';
+import native from '../assets/collaboration/native.svg';
+import tail from '../assets/collaboration/tailwind.svg';
+import next from '../assets/collaboration/nextjs.svg';
+
+
+
+//benefits
+import app from '../assets/benefits/appdesign.svg';
+import web from '../assets/benefits/webdev.svg';
+import market from '../assets/benefits/market.svg';
+import web1 from '../assets/benefits/9906021.svg';
+import market1 from '../assets/benefits/market1.jpg';
+import con from '../assets/benefits/5149654.jpg';
+import app1 from '../assets/benefits/app1.jpg';
+import cons from '../assets/benefits/cons.jpg';
+import soca from '../assets/benefits/management.svg';
+import poster from '../assets/benefits/design.jpg';
+
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Services",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "About",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Contact",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Projects",
     url: "#roadmap",
   },
   {
@@ -128,21 +154,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "We prioritize user satisfaction and tailor our tech stack to deliver the best possible product. Whether it's a sleek web application, a robust mobile app, or a scalable backend system, we meticulously select and implement the most suitable technologies to ensure a secure, performant, and user-friendly experience.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "UI/UX",
+    text: "We leverage the power of Figma to design visually stunning and user-friendly interfaces. Figma allows us to collaborate seamlessly with designers and developers, ensuring a cohesive design and development process.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Frontend ",
+    text:"Frontend development, we primarily rely on ReactJS, a powerful JavaScript library that allows us to create dynamic user interfaces. To style and structure our applications, we utilize a combination of Tailwind CSS for rapid development and Bootstrap for pre-built components. We also leverage Material-UI and Shadcn for advanced UI components and design systems."
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Backend",
+    text:'Backend development is powered by Node.js, a versatile JavaScript runtime environment. We build RESTful APIs using Express.js to handle data requests and responses. For database management, we utilize a combination of Firebase for real-time data synchronization, PostgreSQL for structured data, and MongoDB for flexible, document-based data storage.'
   },
 ];
 
@@ -156,53 +184,54 @@ export const collabApps = [
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Native",
+    icon: native,
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "NodeJs",
+    icon: node,
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "ReactJS",
+    icon: react,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "tailwind",
+    icon: tail,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Postgress",
+    icon: postgress,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "Mongodb",
+    icon: mongo,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Firebase",
+    icon: firebase,
     width: 38,
     height: 32,
   },
+ 
 ];
 
 export const pricing = [
@@ -244,53 +273,53 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Web Development",
+    text: "Expert web development services to bring your online vision to life.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    iconUrl: web,
+    imageUrl: web1,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "App Development",
+    text: "Innovative app development for seamless user experiences.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl: app,
+    imageUrl: app1,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Consultancy Services",
+    text: "Strategic consulting to elevate your digital presence.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: cons,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Social Media Management",
+    text: " Engaging social media strategies to boost your brand.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    iconUrl: soca,
+    imageUrl: con,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Design Services (Posters)",
+    text: "Creative design solutions to captivate your audience.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: poster,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Digital Marketing",
+    text: "Comprehensive digital marketing campaigns to maximize your reach.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl: market,
+    imageUrl: market1,
   },
 ];
 
@@ -305,7 +334,7 @@ export const socials = [
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/growisencom?t=zNlEnB_gTMeK5GYmC5xq7A&s=08",
   },
   {
     id: "2",
@@ -315,9 +344,9 @@ export const socials = [
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
+    title: "Linkedin",
+    iconUrl: linkedin,
+    url: "https://in.linkedin.com/company/growisen",
   },
   {
     id: "4",
@@ -325,4 +354,5 @@ export const socials = [
     iconUrl: facebook,
     url: "#",
   },
+ 
 ];
