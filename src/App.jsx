@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import About from "./components/About";
-
+import Contact1 from "./components/Contact";
 const App = () => {
   return (
     <>
@@ -19,6 +19,8 @@ const App = () => {
         {/* <Services /> */}
        {/* <Pricing /> */}
       <Roadmap /> 
+      <About/>
+      <Contact1/>
       
       <Footer />
       </div>

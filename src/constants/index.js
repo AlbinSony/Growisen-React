@@ -62,6 +62,11 @@ import cons from '../assets/benefits/cons.jpg';
 import soca from '../assets/benefits/management.svg';
 import poster from '../assets/benefits/design.jpg';
 
+//workers
+import navaneeth from '../assets/workers/navaneeth.jpg';
+import anish from '../assets/workers/anish.jpg'
+
+
 export const navigation = [
   {
     id: "0",
@@ -71,12 +76,12 @@ export const navigation = [
   {
     id: "1",
     title: "About",
-    url: "#pricing",
+    url: "#about",
   },
   {
     id: "2",
     title: "Contact",
-    url: "#how-to-use",
+    url: "#contact",
   },
   {
     id: "3",
@@ -120,34 +125,34 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
+    title: "App development",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    date: "Currently",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
+    title: "Web development",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    date: "Currently",
+    status: "done",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
+    title: "Poster",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    date: "Currently",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
+    title: "Saas",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    date: "Nov 2024 - Present",
     status: "progress",
     imageUrl: roadmap4,
   },
@@ -355,4 +360,52 @@ export const socials = [
     url: "#",
   },
  
+];
+
+export const workers = [
+  {
+    id: 1,
+    name: 'Albin Sony',
+    role: 'CEO & Founder',
+    image: '/api/placeholder/300/400'
+  },
+  {
+    id: 2,
+    name: 'Seion Shoji',
+    role: 'CEO & Founder',
+    image: '/api/placeholder/300/400'
+  },
+  {
+    id: 3,
+    name: 'Alen P Aji',
+    role: 'Tech Lead',
+    image: '/api/placeholder/300/400'
+  },
+  {
+    id: 4,
+    name: 'Anish V Mathew',
+    role: 'Developer',
+    image: anish
+  },
+  {
+    id: 5,
+    name: 'Athul Sabu',
+    role: 'Developer',
+    image: '/api/placeholder/300/400'
+  },
+  {
+    id: 6,
+    name: 'Navaneeth Krishna',
+    role: 'Developer',
+    image: navaneeth
+  },
+  {
+    id: 7,
+    name: 'Naveen Alex',
+    role: 'Developer',
+    image: '/api/placeholder/300/400'
+  },
+  
+
+
 ];
