@@ -70,36 +70,21 @@ import anish from '../assets/workers/anish.jpg'
 export const navigation = [
   {
     id: "0",
-    title: "Services",
-    url: "#features",
+    title: "Home",
+    url: "#hero",
   },
   {
     id: "1",
-    title: "About",
-    url: "#about",
+    title: "Servies",
+    url: "#features",
   },
   {
     id: "2",
     title: "Contact",
     url: "#contact",
   },
-  {
-    id: "3",
-    title: "Projects",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+
+
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -286,7 +271,7 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "App Development",
+    title: "Mobile App Development",
     text: "Innovative app development for seamless user experiences.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: app,
@@ -312,8 +297,8 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Design Services (Posters)",
-    text: "Creative design solutions to captivate your audience.",
+    title: "Ecommerce development",
+    text: "Innovative eCommerce development solutions to engage and delight your customers.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: poster,
@@ -330,22 +315,16 @@ export const benefits = [
 
 export const socials = [
   {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://x.com/growisencom?t=zNlEnB_gTMeK5GYmC5xq7A&s=08",
+    url: "https://x.com/growisencom",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/growisenco/",
   },
   {
     id: "3",
@@ -353,13 +332,7 @@ export const socials = [
     iconUrl: linkedin,
     url: "https://in.linkedin.com/company/growisen",
   },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
- 
+
 ];
 
 export const workers = [

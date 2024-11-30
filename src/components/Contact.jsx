@@ -126,7 +126,7 @@ const Contact1 = () => {
                 flex items-center justify-center space-x-2"
             >
               <Send size={16} md:size={20} />
-              <span>Send Inquiry</span>
+              <span>Send Enquiry </span>
             </button>
           </form>
 
