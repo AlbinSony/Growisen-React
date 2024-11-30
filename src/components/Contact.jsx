@@ -8,7 +8,7 @@ const Contact1 = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:abc@example.com?subject=Newsletter%20Inquiry&body=Email:%20${encodeURIComponent(email)}%0A%0AInquiry:%20${encodeURIComponent(inquiry)}`;
+    const mailtoLink = `mailto:albinsonydev@gmail.com?subject=Newsletter%20Inquiry&body=Email:%20${encodeURIComponent(email)}%0A%0AInquiry:%20${encodeURIComponent(inquiry)}`;
     window.location.href = mailtoLink;
     setEmail('');
     setInquiry('');
