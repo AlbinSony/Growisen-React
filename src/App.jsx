@@ -18,8 +18,8 @@ const App = () => {
         <Collaboration />
         {/* <Services /> */}
        {/* <Pricing /> */}
-      <Roadmap /> 
-      <About/>
+     {/* <Roadmap /> 
+      <About/> */}
       <Contact1/>
       
       <Footer />

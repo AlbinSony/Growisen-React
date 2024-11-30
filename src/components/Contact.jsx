@@ -31,7 +31,7 @@ const Contact1 = () => {
             </div>
             <div className="flex items-center">
               <Mail className="mr-4 text-red-500" size={20} md:size={24} />
-              <span className="text-base md:text-xl">growisen@gmail.com</span>
+              <span className="text-base md:text-xl">support@growisen.com</span>
             </div>
           </div>
         </div>
