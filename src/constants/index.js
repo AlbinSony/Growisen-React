@@ -75,7 +75,7 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Servies",
+    title: "Services",
     url: "#features",
   },
   {
